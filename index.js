@@ -25,14 +25,12 @@ function johnLennonFacts(facts) {
   return facts
 }
 
+var array = [];
+
 function iLoveTheBeatles(number) {
   do {
-    var i = number;
-    var array = [];
     array.push("I love the Beatles!")
-  } while (i < 15) {
-    array.push("I love the Beatles!")
-    i += 1
-  }
-  return array
+    number += 1
+  } while (number < 15);
+  return array;
 }
