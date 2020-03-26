@@ -31,7 +31,7 @@ function iLoveTheBeatles(number) {
   var i = number
   do {
     loveBeatlesArray.push("I love the Beatles!")
-    i += 1
+    var i = i + 1
   } while (i < 15);
   return loveBeatlesArray;
 }
